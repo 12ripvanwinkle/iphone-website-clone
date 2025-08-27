@@ -32,7 +32,7 @@ const Hero = () => {
   }, [])
 
   return (
-    <section className="w-full nav-height bg-black relative">
+    <section className="w-full nav-height bg-black relative pt-20">
       <div className="h-5/6 w-full flex-center flex-col">
         <p id='hero' className="hero-title">IPhone 15 Pro</p>
         
@@ -43,7 +43,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div id='cta' className='flex flex-col items-center opacity-0 translate-y-20'>
+      <div id='cta' className='flex flex-col items-center opacity-0 translate-y-2'>
         <a href="#highlights" className='btn'>Buy</a>
         <p className='font-normal text-xl'>From $199/month or $999</p>
 
