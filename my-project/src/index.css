@@ -192,7 +192,7 @@ canvas {
   }
 
   .section-heading {
-    @apply text-gray-100 lg:text-6xl md:text-5xl text-3xl lg:mb-0 mb-5 font-medium opacity-0;
+    @apply text-gray-100 lg:text-3xl md:text-5xl text-3xl lg:mb-0 mb-5 font-medium opacity-0;
   }
 
 
@@ -245,7 +245,11 @@ canvas {
   }
 
   .video-carousel_container {
-    @apply relative sm:w-[70vw] w-[88vw] md:h-[70vh] sm:h-[50vh] h-[35vh];
+      @apply relative sm:w-[70vw] w-[80vw] md:h-[80vh] sm:h-[90vh] h-[80vh];
+      min-height: 500px; /* or whatever fits */
+      top: 40px; /* push down 200px */
+      left: 50%;
+      transform: translateX(-50%);
   }
 
   .g_fadeIn {

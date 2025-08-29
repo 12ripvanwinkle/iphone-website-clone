@@ -157,7 +157,7 @@ const VideoCarousel = () => {
 
   return (
     <>
-      <div className="flex items-center gap-10 sm:gap-20">
+      <div className="flex items-center gap-10 sm:gap-20 mt-28">
         {hightlightsSlides.map((list, i) => (
           <div key={list.id} id="slider">
             <div className="video-carousel_container">
@@ -198,7 +198,7 @@ const VideoCarousel = () => {
       </div>
 
 
-      <div className="relative flex-center mt-10">
+      <div className="relative flex-center mt-32">
         <div className="flex-center py-5 px-7 bg-gray-800 backdrop-blur rounded-full">
           {videoRef.current.map((_, i) => (
             <span
@@ -210,7 +210,7 @@ const VideoCarousel = () => {
                 className="absolute h-full w-full rounded-full"
                 ref={(el) => (videoSpanRef.current[i] = el)}
               />
-            </span>
+            </span> 
           ))}
         </div>
 
